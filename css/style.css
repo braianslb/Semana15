@@ -1,0 +1,194 @@
+
+.wrapper {
+    display: flex;
+}
+
+nav {
+   margin: 1%; 
+   height: 1%;
+   word-spacing: 1cm;
+   margin-left: 36%;
+   background-color: #e6e6e6;
+}
+
+nav h2 {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+}
+
+a {
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.active {
+  color: black;
+}
+
+.intro {
+    margin-top: 4%;
+    margin-left: 30%;
+}
+
+footer h1 {
+    color: purple;
+    background-color: #e6e6e6;
+    font-size: 14px;
+    line-height: 300%;
+    margin-top: 10%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* remedios */
+
+.rowrem {
+  display: flex;
+}
+
+.column-1, .column-2 {
+  flex: 1;
+  border: 1px solid purple;
+  text-align: center;
+  margin: 3%;
+  padding: 3%;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 135%;
+}
+
+.row div img {
+  width: 50%;
+  margin-bottom: 5%;
+  color: white;
+}
+
+.row p {
+  margin: 2%;
+  padding-top: 6%;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.text {
+  margin-top: 3%;
+  font-size: 17px;
+ }
+
+.titulo {
+  margin-bottom: 3%;
+  font-family: 'Courgette', cursive;
+  font-size: 35px;
+}
+
+ .navrem {
+   margin: 1%; 
+   margin-left: 890px;
+   height: 1%;
+   word-spacing: 1cm;
+   margin-top: -45px;
+}
+
+.logito {
+    width: 128px;
+    height: 85px;
+    margin-left: 43px;
+    margin-top: 30px;
+}
+
+/* nutricion */
+
+.nutrik {
+  display: flex;
+  flex-direction: column;
+}
+
+.nutriwa {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+.ntks img {
+  margin-right: 20px;
+  margin-bottom: 25px;
+  padding-left: 45px;
+  width: 425px;
+  height: 425px;
+}
+
+.ntks {
+  text-align: left;
+}
+
+.nutriwa div img {
+  border: 100%;
+  padding-left: 48px;
+  margin-top: 10px;
+  width: 350px;
+  height: 350px;
+}
+.nutriwa div p {
+  font-size: 18px;
+  margin: 10px;
+  padding-right: 40px;
+  text-align: justify;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* recetas */
+
+.nosotro2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.nosotro2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+.nosotr img {
+  margin-right: 20px;
+  margin-bottom: 25px;
+  padding-left: 45px;
+  width: 425px;
+  height: 425px;
+}
+
+.nosotr {
+  text-align: left;
+}
+
+.nosotro2 div img {
+  border: 100%;
+  padding-left: 48px;
+  margin-top: 10px;
+  width: 350px;
+  height: 350px;
+}
+.nosotro2 div p {
+  font-size: 18px;
+  font-family: 'PT Sans', sans-serif;
+  margin: 10px;
+  padding-right: 40px;
+  text-align: justify;
+}
+
+/* contactos */
+
+.info {
+   color: black;
+   font-size: 50px;
+   text-align: center;
+   font-family: 'Nanum Gothic', sans-serif;
+   margin-top: 140px;
+   font-weight: bold;
+}
+
+
